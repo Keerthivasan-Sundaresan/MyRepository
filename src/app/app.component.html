@@ -1,0 +1,8 @@
+<hello name="{{ name }}"></hello>
+<div *ngFor="let emp of sampledata">
+{{emp.name}}  {{emp.company}}
+</div>
+<input [ngModel]="mydata">
+<input [(ngModel)]="mydata">
+
+{{mydata}}
